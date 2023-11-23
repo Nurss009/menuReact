@@ -21,7 +21,7 @@ const SearchPage = () => {
         <>
             <div className="container">
                 <Heder/>
-                <input  type="text"
+                <input placeholder={'Ведите название блюда'} type="text"
                        onChange={(e) => setInputMeal(e.target.value)}
                 />
                 <button onClick={handleSearch}>

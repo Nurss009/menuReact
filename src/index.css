@@ -34,6 +34,7 @@ img {
 }
 input {
   padding: 8px 12px;
+  border-radius: 10px;
 }
 
 header a {
@@ -50,9 +51,19 @@ h5 {
   color: gray;
   font-size: 18px;
 }
+h4 {
+  color: white;
+}
 button {
   padding: 8px;
   margin-left: 15px;
+  border-radius:16px ;
+  cursor: pointer;
+}
+button:hover {
+  background: gray;
+  color: white;
+  transition: 0.6s;
 }
 p {
   color: darkgray;
@@ -75,4 +86,7 @@ nav a {
 }
 .p {
   width: 350px;
+}
+.box {
+  margin-left: 29px;
 }
